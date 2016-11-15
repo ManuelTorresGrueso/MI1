@@ -1,0 +1,24 @@
+H1 {
+    font-family: monospace ;
+    text-align: center
+    
+        
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+H2 {
+    font-family: monospace ;
+}
+
+p {
+    font-family: monospace ;
+}
+
+body {
+    background-color: #ffffff;
+}

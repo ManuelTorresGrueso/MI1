@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="webpagina voor CompuStore" >
+		<meta name="keywords" content="computer,winkel,">
+		<title>CompuStore</title>
+<link 
+	rel="stylesheet" 
+	href="mijnstijlblad.css">
+        
+	</head>
+    
+     <body>
+<img src ="/img/aHR0cHM6Ly93d3cuZnJlZWxvZ29zZXJ2aWNlcy5jb20vYXBpL21haW4vaW1hZ2VzLzFqK29qbDFLT01rWDlXeW9mQmU0M0Q2a2ouLi42Q3FoZEduQi4uLkV3WHMxTTNFTW9BSnRsQ2NyaC4uLnRvOFBnOQ==.png"
+                 alt ="CompuStore"
+                 height="100"
+                 title="CompuStoreLogo">
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+  <div class="nav">
+      <ul>
+        <li class="Welkom!"><a href="Home.html">Home</a></li>
+        <li class="Computers"><a href="Computers.html">Computers</a></li>
+        <li class="Reparatie"><a href="Reparaties.html">Reparaties</a></li>
+        <li class="Contact"><a href="Contact.html">Contact</a></li>
+        <li class="Promoties"><a href="Promoties.html">Promoties</a></li>
+      </ul>
+    </div>
+         
+<h1>Reparaties</h1>
+         
+<p> Heeft u een computerprobleem waar u geen raad mee weet? Geen nood wij helpen u verder! In slechts een paar stappen bent u van uw ellendig computerprobleem verlost. Gelieve onderstaand formulier zo nauwkeurig mogelijk in te vullen (beschrijving van de aard en de frequentie van het probleem alsook uw klantengegevens). Wij maken een offerte voor u op en doen al het mogelijke om uw probleem zo snel mogelijk te verhelpen.
+         </p>
+         
+<form action="mailto:CompuStore1234@hotmail.com" method=post>
+    
+    
+ <fieldset id=persoon>
+     
+ <legend>Mijn klantengegevens</legend>
+ <input id=heer name=aanspreking type=radio value=meneer>
+<label for=heer > meneer</label>
+
+ <input id=mevrouw name=aanspreking type=radio value=Mevrouw checked>
+<label for=mevrouw > mevrouw</label><br>
+     
+     <label for=naam > voor-en achternaam</label>
+     <input id=naam maxlength=90 name=naam size=30 type=text><br>
+     
+     
+     
+     <label for=mail> e-mailadres</label>
+     <input id=mail name=mail type=email>
+    </fieldset>
+    
+    <fieldset id=Probleembeschrijving>
+    <legend>Wat is uw probleem?</legend>
+    <select id=soort name=soort > 
+        <option>kies een optie</option> 
+        <option>mijn computer start niet op. </option> 
+        <option>mijn computer maakt veel geluid</option> 
+        <option>mijn computer werkt zeer traag</option> 
+        <option>mijn computer blokkeert</option> 
+        <option>ander probleem</option> 
+    
+        </select>
+    </fieldset>
+     <fieldset id=beschrijving>
+     <legend>Beschrijf uw probleem</legend>
+         <label for=invul></label>
+         <textarea id=invul name=invul
+                   cols=50 rows=6></textarea><br>
+         <input id=zelfmail name=zelfmail type="checkbox">
+         <label for=zelfmail> stuur een kopie naar mijn emailadres</label>
+    </fieldset>
+    <fieldset id =klaar >
+        <input id = zend type=submit value= verstuur>
+    </fieldset>
+         </form>
+     
+    
+    
+    
+
+
+         
+         
+
+         <div class="footer">© 2016 CompuStore.com</div>
+	</body>
+    
+</html>
+
